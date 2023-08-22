@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Cabin&family=Poppins:wght@200&display=swap');
+
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;   
+}
+
+html, body{
+    color: white;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    cursor: none;
+    height: 100%;
+    width: 100%;
+}
+
+#nav {
+    padding: 30px;
+    display: flex;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    align-items: center;
+    gap: 50px;
+    justify-content: center;
+    position: fixed;
+    z-index: 9999;
+}
+
+#nav h4 {
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+#nav h4:hover{
+    border-bottom: 3px solid white;
+}
+
+#cursor{
+    height: 25px;
+    width: 25px;
+    background-color: rgba(0, 0, 0, 0.684);
+    border-radius: 50%;
+    z-index: 999999999;
+    position: fixed;   
+}
+
+#cursor-b{
+    height: 150px;
+    width: 150px;
+    background-color: rgba(255, 255, 255, 0.745);
+    border-radius: 50%;
+    position: fixed;
+    filter: blur(30px);
+}
+
+video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: fixed;
+    z-index: -10;
+}
+#main{
+    position: relative;
+    background-color: rgba(0,0,0,0.6);
+}
+#page-1{
+    height: 100vh;
+    width: 100%;
+    /* background-color: black; */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+#page-1 h1{
+    font-size: 60px;
+    font-family: 'Black Ops One', cursive;
+    position: relative;
+    color: black;
+}
+#page-1 h1::before{
+    content: "WANDER.WONDER.REPEAT";
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: -5px;
+    left: -5px;
+}
+
+#page-1 h2{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+#page-1 p{
+    margin-top: 15px;
+    font-size: 17px;
+    width: 40%;
+    text-align: center;
+    
+}
+
+#page-2{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0,0,0,0.6);   
+}
+
+#scroller h1{
+    text-align: center;
+}
+
+#scroller img{
+    height: 400px;
+    width: 350px;
+    padding: 50px 10px 20px 10px;
+}
+
+#aboutus{
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+}
+
+#aboutus p{
+    width: 50%;
+    text-align: center; 
+    margin-top: 30px;  
+}
+
+#aboutus img{
+    width: 20%;
+    height: max-content;
+    margin: 30px 30px;
+}
+#content-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#page-3{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 30px;
+}
+.card{
+    color: black;
+    background-color: rgb(209, 209, 209);
+    position: relative;
+    height: 70%;
+    width: 30%;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin: 30px 50px;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+.card img{
+    margin-top: 30px;
+    width: 280px;
+    
+}
+.card p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 30px;
+}
+#page-4{
+    height: auto;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+.column {
+    flex: 1;
+    margin: 0 10px;
+}
+  
+.column h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+  
+.column p {
+    font-size: 0.9em;
+}
+
+
+#page-4 p{
+    margin: 30px 30px;
+    font-size: 25px;
+}
